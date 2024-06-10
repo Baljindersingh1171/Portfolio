@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.7aa5ace4.css",
+    "main.js": "/Portfolio/static/js/main.56421ead.js",
+    "static/js/453.50e178fc.chunk.js": "/Portfolio/static/js/453.50e178fc.chunk.js",
+    "static/media/CV-Baljinder2.pdf": "/Portfolio/static/media/CV-Baljinder2.2f8f50a5cbc880e5a6fa.pdf",
+    "index.html": "/Portfolio/index.html",
+    "main.7aa5ace4.css.map": "/Portfolio/static/css/main.7aa5ace4.css.map",
+    "main.56421ead.js.map": "/Portfolio/static/js/main.56421ead.js.map",
+    "453.50e178fc.chunk.js.map": "/Portfolio/static/js/453.50e178fc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7aa5ace4.css",
+    "static/js/main.56421ead.js"
+  ]
+}

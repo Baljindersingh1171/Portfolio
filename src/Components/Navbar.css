@@ -1,0 +1,47 @@
+.nav {
+  display: flex;
+  list-style: none;
+  /* justify-content: center; */
+  gap: 70px;
+  /* background-color: antiquewhite; */
+  height: 50px;
+  padding: 10px;
+}
+#mode {
+  /* margin-left: auto; */
+  position: absolute;
+  top: 1%;
+  left: 92%;
+  font-size: 1.5rem;
+  cursor: pointer;
+  /* transform-origin: center center; */
+  animation: spin 4s linear infinite;
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* #mode:hover {
+  transform: rotate(360deg);
+} */
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+#portfolio {
+  font-size: 20px;
+  color: rgb(250, 74, 74);
+}
+/* .hide {
+  display: none;
+}
+
+#mode:hover + .hide {
+  display: block;
+  color: red; */

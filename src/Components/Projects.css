@@ -1,0 +1,23 @@
+.card-text {
+  text-align: justify;
+}
+.projects {
+  display: flex;
+  margin-top: 25px;
+  /* align-items: center; */
+  justify-content: center;
+
+  gap: 25px;
+}
+.invpro {
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.invpro:hover {
+  transform: scale(1.04);
+  transition: 0.4s;
+  cursor: pointer;
+}
+/* .p1 {
+  height: 10rem;
+} */

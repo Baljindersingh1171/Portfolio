@@ -1,0 +1,45 @@
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 100px;
+  flex-direction: column;
+}
+.contactus {
+  display: flex;
+
+  justify-content: space-around;
+}
+.names {
+  display: flex;
+  gap: 10px;
+}
+.form {
+  margin-top: 0px;
+}
+
+.contact {
+  display: flex;
+  /* flex-direction: column; */
+
+  gap: 10px;
+}
+input {
+  /* border: none; */
+  /* background-color: rgb(227, 228, 230); */
+}
+#btnsend {
+  border: none;
+  padding: 8px;
+  border-radius: 10px;
+  transition: transform 0.5s;
+
+  background-color: rgb(154, 57, 233);
+  color: white;
+}
+#btnsend:hover {
+  transform: rotate(7deg);
+}
+.mydetail p {
+  font-size: 20px;
+}

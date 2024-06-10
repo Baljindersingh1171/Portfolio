@@ -1,0 +1,35 @@
+.main {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 30px;
+  margin-top: 50px;
+  align-items: center;
+}
+#mypic {
+  height: 430px;
+  width: 500px;
+  border: 5px solid;
+  border-image: linear-gradient(45deg, red, yellow, green, blue) 1;
+  margin-right: 30px;
+  transition: transform 0.7s ease;
+}
+#mypic:hover {
+  transform: perspective(1000px) translateX(-10px) scale(0.95);
+  cursor: pointer;
+}
+.container {
+  margin-top: -10rem;
+}
+.resumebtn {
+  /* height: 40px; */
+  padding: 10px;
+  margin-top: 30px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: rgb(250, 74, 74);
+  color: white;
+}
+.resumebtn:hover {
+  background-color: rgb(248, 50, 50);
+}

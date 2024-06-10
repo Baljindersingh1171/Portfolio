@@ -1,0 +1,29 @@
+.about {
+  width: 600px;
+}
+.progress-bar {
+  background-color: rgb(50, 146, 248);
+}
+.content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+.profile {
+  height: 125px;
+  width: 14rem;
+  margin-top: -7.5px;
+}
+.intro {
+  margin-right: 100px;
+
+  margin-top: 20px;
+}
+.card {
+  /* margin-bottom: 7px; */
+}
+.btn {
+  padding: 4px;
+  font-size: 15px;
+}
